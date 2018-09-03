@@ -82,10 +82,15 @@ img, video, audio {
 section {
   padding: 20px;
   margin-bottom: 20px;
-  box-sizing: border-box;
 }
 
 /*/////// LAYOUT ///////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 .wrapper {
   width: 960px;
